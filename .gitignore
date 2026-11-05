@@ -1,0 +1,42 @@
+# Secrets and environment
+.env
+.env.local
+.env.*.local
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and caches
+.chroma/
+.cache/
+*.db
+repochat.db
+
+# Cloned target repositories
+target_repo/
+repos/
+
+# Frontend dependencies and logs
+frontend/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
